@@ -4,9 +4,9 @@ public class ThirdDecr {
             System.out.print(1+" ,");
             return;
         }
-        // System.out.print(n+",");
+        System.out.print(n+",");
         Prd(n-1);
-                System.out.print(n+" ,");
+                // System.out.print(n+" ,");
     }
     public static void main(String[] args) {
         Prd(9);
